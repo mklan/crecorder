@@ -4,8 +4,8 @@ import WebMWriter from 'webm-writer';
 import GIF from 'gif.js.optimized';
 
 const formats = {
-    gif: { format: "gif", workersPath: "./" },
-    webm: { format: "webm" }
+    gif: { format: 'gif', workersPath: './' },
+    webm: { format: 'webm' }
 };
 
 // in order to get ccapture working we need to expose the libs to window
@@ -22,10 +22,10 @@ expose();
 const createCrecorder = ({
   format = 'gif',
   canvas = window.document.getElementById('canvas'),
-  ccaptureSettings
+  ccaptureParams
 } = {}) => {
 
-  const capturer = new CCapture({ ...formats[format], ...ccaptureSettings});
+  const capturer = new CCapture({ ...formats[format], ...ccaptureParams});
 
   return {
     record,
