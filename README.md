@@ -8,7 +8,7 @@ This service wraps ccapture.js functionality to enable importing using modules a
 
 demo: https://mklan.github.io/crecorder/
 
-```
+```bash
 # develop
 npm run start-example
 # http://localhost:1234
