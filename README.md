@@ -1,8 +1,8 @@
 # crecorder
 
-record canvas to gif or webm
+Record canvas to gif or webm!
 
-this service wraps ccapture.js functionality to enable importing using modules and simple usage on the fly
+This service wraps ccapture.js functionality to enable importing using modules and simple usage on the fly.
 
 ## Example
 
@@ -20,6 +20,7 @@ npm run build-example
 ## Api
 
 ```JavaScript
+import createCrecorder from 'crecorder';
 
 // create a recorder
 const recorder = createCrecorder({ 
@@ -41,7 +42,8 @@ recorder.record({
 
 ```
 
-createCrecorder is exposed to the window object, so you can trigger actions via command line.
+`createCrecorder` is exposed to the window object, so you can trigger actions via command line.
+After stopping recording the file is downloaded.
 
 ## Inject into external webpage
 
