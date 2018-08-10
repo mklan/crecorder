@@ -5,7 +5,7 @@ import GIF from 'gif.js.optimized';
 
 const formats = {
     gif: { format: "gif", workersPath: "./" },
-    web: { format: "webm" }
+    webm: { format: "webm" }
 };
 
 // in order to get ccapture working we need to expose the libs to window
