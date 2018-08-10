@@ -58,7 +58,7 @@ function injectScript(attributes){
 }
  
 injectScript({
-  src: 'mklan.github.io/crecorder/lib/crecorder.js',
+  src: '//mklan.github.io/crecorder/lib/crecorder.js',
 });
 
 ```
