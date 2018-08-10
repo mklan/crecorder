@@ -1,5 +1,5 @@
 {
-  "name": "capture",
+  "name": "crecorder",
   "version": "1.0.0",
   "description": "",
   "main": "dist/crecorder.js",       
@@ -8,7 +8,7 @@
   "source": "src/crecorder.js",
   "scripts": {
     "build": "microbundle",
-    "before-example": "rm -rf dist && mkdir docs && cp gif.worker.js docs/ ",
+    "before-example": "rm -rf docs && mkdir docs && cp gif.worker.js docs/ ",
     "start-example": "npm run before-example && parcel ./src/example/index.html --out-dir docs",
     "build-example": "npm run before-example && parcel build ./src/example/index.html --public-url ./ --out-dir docs"
   },
