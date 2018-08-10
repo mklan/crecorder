@@ -55,7 +55,6 @@ function injectScript(attributes){
   return Object.assign(script, attributes); 
 }
  
-// jquery example
 injectScript({
   src: 'mklan.github.io/crecorder/lib/crecorder.js',
 });
