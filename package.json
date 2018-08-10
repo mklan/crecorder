@@ -1,0 +1,29 @@
+{
+  "name": "capture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/crecorder.js",       
+  "umd:main": "dist/crecorder.umd.js",
+  "module": "dist/crecorder.m.js",
+  "source": "src/crecorder.js",
+  "scripts": {
+    "build": "microbundle",
+    "before-example": "rm -rf dist && mkdir docs && cp gif.worker.js docs/ ",
+    "start-example": "npm run before-example && parcel ./src/example/index.html --out-dir docs",
+    "build-example": "npm run before-example && parcel build ./src/example/index.html --public-url ./ --out-dir docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "buffer": "^5.2.0",
+    "ccapture.js": "github:aceslowman/ccapture.js#npm-fix",
+    "downloadjs": "^1.4.7",
+    "gif.js.optimized": "^1.0.1",
+    "parcel-bundler": "^1.9.7",
+    "webm-writer": "^0.2.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "microbundle": "^0.6.0"
+  }
+}
