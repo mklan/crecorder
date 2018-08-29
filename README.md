@@ -73,4 +73,4 @@ const recorder = createCrecorder({
   canvas: $0
 });
 ```
-keep in mind, that the injection does not work with gif, due to the missing gif.worker.js script on external webpages
+keep in mind, that the injection does not work with gif, due to the missing `gif.worker.js` script on external webpages
