@@ -63,7 +63,7 @@ injectScript({
 
 ```
 
-the library is no injected and you can use `createCrecorder` via command line.
+the library is now injected and you can use `createCrecorder` via command line.
 
 __pro-tip:__ select the canvas element in the dom, after that you can initalize the recorder using the following snippet
 
