@@ -20,10 +20,10 @@
     "ccapture.js": "github:aceslowman/ccapture.js#npm-fix",
     "downloadjs": "^1.4.7",
     "gif.js.optimized": "^1.0.1",
-    "parcel-bundler": "^1.9.7",
     "webm-writer": "^0.2.1"
   },
   "devDependencies": {
-    "babel-plugin-transform-object-rest-spread": "^6.26.0"
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "parcel-bundler": "^1.10.0"
   }
 }
